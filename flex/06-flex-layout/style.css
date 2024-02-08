@@ -25,3 +25,102 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* SOLUTION */
+
+/* .body {
+  text-align: center;
+  display: flex;
+} */
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: grey
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+/* ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+} */
+
+.content {
+  display: flex;
+  flex: 1;
+  outline: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
+  gap: 16px;
+
+}
+
+button {
+  padding: 8px 16px;
+}
+/* suggested solution */
+/* 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+} */
+
